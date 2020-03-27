@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		9033DBB3242D89EE0062E0F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033DBB1242D89EE0062E0F2 /* Main.storyboard */; };
 		9033DBB5242D89F10062E0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9033DBB4242D89F10062E0F2 /* Assets.xcassets */; };
 		9033DBB8242D89F10062E0F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033DBB6242D89F10062E0F2 /* LaunchScreen.storyboard */; };
+		909902D7242D8DAA00C89AAC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 909902D6242D8DAA00C89AAC /* awsconfiguration.json */; };
+		909902D9242D8F9800C89AAC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909902D8242D8F9800C89AAC /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		9033DBB4242D89F10062E0F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9033DBB7242D89F10062E0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9033DBB9242D89F10062E0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909902D6242D8DAA00C89AAC /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		909902D8242D8F9800C89AAC /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
 		E9B50FE8C474989FBACB2D54 /* Pods-AWSPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSPrototype.debug.xcconfig"; path = "Target Support Files/Pods-AWSPrototype/Pods-AWSPrototype.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,8 @@
 		9033DBAA242D89EE0062E0F2 /* AWSPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				909902D6242D8DAA00C89AAC /* awsconfiguration.json */,
+				909902D8242D8F9800C89AAC /* API.swift */,
 				9033DBAB242D89EE0062E0F2 /* AppDelegate.swift */,
 				9033DBAD242D89EE0062E0F2 /* SceneDelegate.swift */,
 				9033DBAF242D89EE0062E0F2 /* ViewController.swift */,
@@ -88,7 +94,6 @@
 				E9B50FE8C474989FBACB2D54 /* Pods-AWSPrototype.debug.xcconfig */,
 				1608121B2DEB9A65D9DD00E7 /* Pods-AWSPrototype.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909902D7242D8DAA00C89AAC /* awsconfiguration.json in Resources */,
 				9033DBB8242D89F10062E0F2 /* LaunchScreen.storyboard in Resources */,
 				9033DBB5242D89F10062E0F2 /* Assets.xcassets in Resources */,
 				9033DBB3242D89EE0062E0F2 /* Main.storyboard in Resources */,
@@ -209,6 +215,7 @@
 			files = (
 				9033DBB0242D89EE0062E0F2 /* ViewController.swift in Sources */,
 				9033DBAC242D89EE0062E0F2 /* AppDelegate.swift in Sources */,
+				909902D9242D8F9800C89AAC /* API.swift in Sources */,
 				9033DBAE242D89EE0062E0F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
